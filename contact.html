@@ -1,9 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Innovating in Old Age Industries</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item-active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Connect</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif; background-color: black;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -18,7 +56,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: grey;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -32,14 +70,14 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: #FFFFFF;
   padding: 20px;
 }
 </style>
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<center><h2>Contact Form</h2></center>
 
 <div class="container">
   <form action="/action_page.php">
@@ -49,10 +87,12 @@ input[type=submit]:hover {
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
+    <label for="country">Continent</label>
     <select id="country" name="country">
+    <option value="australia">Africa</option>
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
+      <option value="Europe">Europe</option>
       <option value="usa">USA</option>
     </select>
 
