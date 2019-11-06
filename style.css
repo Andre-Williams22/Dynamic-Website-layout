@@ -44,8 +44,8 @@ html, body{
   padding-bottom: 1rem;
 }
 .btn-primary{
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #3345eb;
+  border: 1px solid #176cec;
 }
 .btn-primary:hover {
   background-color: #563d7c;
